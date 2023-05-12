@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "get_yt_transcript.app",
+        "aws_region": "ap-northeast-2",
+        "profile_name": "default",
+        "project_name": "yt-transcript",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-1cb68n4bk"
+    }
+}
