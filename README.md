@@ -1,6 +1,6 @@
 # yt-transcript-serverless 👻
 
-- Here is an example:
+Here is an example:
 
 ```curl
 # https://www.youtube.com/watch?v=NCtzkaL2t_Y
@@ -32,4 +32,15 @@ $ curl http://localhost:8000/NCtzkaL2t_Y/transcript
     ...
   ]
 }
+```
+
+## Deploy
+
+- `zappa` support cool and easy deploy features for aws serverless
+  - [!] First you need to setup `aws configure`
+- If you want to know more, check zappa official docs please 😀
+
+```bash
+# Deploy for dev stage
+$ zappa deploy dev
 ```
